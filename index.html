@@ -1,0 +1,287 @@
+<html lang="en">
+  <head>
+    <title>GoidHub</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="For all your goid action.">
+    <meta name="author" content="SitePoint">
+    <meta property="og:title" content="GoidHub">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:description" content="For all your goid action.">
+    <meta property="og:image" content="media/images/goidhublogo.png">
+
+    <link rel="icon" href="media/images/icon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.html">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/stylesdefault.css?v=1.0">
+  </head>
+  <body>
+    <header>
+      <div class="thinbanner">
+        <div class="bannerblk">
+          <p>EDAKUNTILEAGUE</p>
+          <p>EDAKUNTILEAGUE</p>
+          <p>EDAKUNTILEAGUE</p>
+          <p>EDAKUNTILEAGUE</p>
+          <p>EDAKUNTILEAGUE</p>
+        </div>
+      </div>
+      <div id="row1">
+        <button id="mmbutton" onclick="myFunction()">
+          <h3>≡
+        </h3></button>
+        <a href="index.html"><img id="logo" src="media/images/goidhublogo.png" height="50px"></a>
+        <div id="searchBarContainer">
+          <label for="search">
+            <input id="searchInput" type="text" value="" placeholder="Search videos" maxlength="100">
+          </label>
+          <div class="orangeButton">🔎︎</div>
+        </div>
+        <div class="loginsignup">
+          <p id="lgn">Login</p>
+          <p id="lgn">Sign Up</p>
+        </div>
+      </div>
+      <div id="row2">
+        <ul class="topbar">
+          <li> <a class="active">Home v</a></li>
+          <li> <a href="goidstars.html">GoidStars  ˅</a></li>
+          <li> <a href="videos.html">Videos  ˅</a></li>
+          <li> <a href="images.html">Images  ˅</a></li>
+        </ul>
+      </div>
+      <div id="mmdrop">
+        <a href="index.html" class="mmdroprow">
+          <h2>All Videos</h2>
+        </a>
+        <a href="goidstars.html" class="mmdroprow">
+          <h2>GoidStars</h2>
+        </a>
+      </div>
+
+    </header>
+    <center>
+      <br>
+
+
+      <div class="banner">
+        <div class="w3-content w3-section" style="max-width:468px">
+          <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_2.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_3.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_4.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_5.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_6.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_7.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_8.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_9.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_10.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_11.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_12.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_13.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_14.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width: 100%; display: none;">
+          <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width: 100%; display: block;">
+        </div> <!-- Changing Banner -->
+      </div>
+      <script id="bannerscript">
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+      </script>
+
+      <div class="shelf">
+        <h1> Hot Goid Videos Today </h1>
+        <div class="shelfrow" id="videos">
+          <div class="shelfitem" id="deept" onclick="getInfo('008', 'zorba')">
+            <img src="media/008/thumb.jpg">
+            <p class="boxtitle" id="title008"> Zorba Deepthroats a Creamy Treat </p>
+            <div class="author link" id="zorba">
+              <div class="image-cropper">
+                <img src="media/images/prof/zorba.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>CMDRZorbaDundee</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="pacif" onclick="getInfo('007', 'lambert')">
+            <img src="media/007/thumb.jpg">
+            <p class="boxtitle" id="title007"> Hot Young Fighter Sucks on Older CMDR's Pacifier </p>
+            <div class="author link" id="lambert">
+              <div class="image-cropper">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9330429e-8972-4c5a-b89a-0f6039d21561-profile_image-150x150.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Nick_Lambert</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="syph" onclick="getInfo('006', 'syphon')">
+            <img src="media/006/thumb.png">
+            <p class="boxtitle" id="title006"> The Best Throbbing member of EDA </p>
+            <div class="author link" id="syphondex">
+              <div class="image-cropper">
+                <img src="media/images/prof/syphondex.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Syphondex</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="nickb" onclick="getInfo('001', 'zorba')">
+            <img src="media/001/thumb.png">
+            <p class="boxtitle" id="title001"> Mature Hydra takes hot Gauss load in the face </p>
+            <div class="author link" id="zorba">
+              <div class="image-cropper">
+                <img src="media/images/prof/zorba.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>CMDRZorbaDundee</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="bbcb" onclick="getInfo('002', 'zorba')">
+            <img src="media/002/thumb.png">
+            <p class="boxtitle" id="title002"> Big Black Clipper action on four innocent Commanders </p>
+            <div class="author link" id="zorba">
+              <div class="image-cropper">
+                <img src="media/images/prof/zorba.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>CMDRZorbaDundee</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="chcn" onclick="getInfo('003', 'chicken')">
+            <img src="media/003/thumb.png">
+            <p class="boxtitle" id="title003"> Super_Chicken goes full Goid for the first time </p>
+            <div class="author link" id="chicken">
+              <div class="image-cropper">
+                <img src="media/images/prof/chicken.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Super_Chicken</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="ghb" onclick="getInfo('004', 'zorba')">
+            <img src="media/004/thumb.png">
+            <p class="boxtitle" id="title004"> GoidHub Video Intro </p>
+            <div class="author link" id="zorba">
+              <div class="image-cropper">
+                <img src="media/images/prof/zorba.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>CMDRZorbaDundee</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem" id="chcn" onclick="getInfo('005', 'chicken')">
+            <img src="media/005/thumb.png">
+            <p class="boxtitle" id="title005"> Super_Chicken telling off his Thargoid Dancers </p>
+            <div class="author link" id="chicken">
+              <div class="image-cropper">
+                <img src="media/images/prof/chicken.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Super_Chicken</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="shelf">
+        <h1> Pictures </h1>
+        <div class="shelfrow" id="images">
+          <div class="shelfitem">
+            <img src="media/images/submissions/Caustakki.png">
+            <p class="boxtitle">Five Commanders One Cyclops</p>
+
+            <div class="author link" id="lambert">
+              <div class="image-cropper">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9330429e-8972-4c5a-b89a-0f6039d21561-profile_image-150x150.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Nick_Lambert</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+          <div class="shelfitem">
+            <img src="media/images/tentacles.jpg">
+            <p class="boxtitle">Lucky Commander gets tentacles from Curvy Basilisk</p>
+            <div class="author link" id="lambert">
+              <div class="image-cropper">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/9330429e-8972-4c5a-b89a-0f6039d21561-profile_image-150x150.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>Nick_Lambert</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="shelfitem">
+            <img src="media/images/noodle.png">
+            <p class="boxtitle">Big Krait Commander gets Noodle action in POV</p>
+            <div class="author link" id="zorba">
+              <div class="image-cropper">
+                <img src="media/images/prof/zorba.png" alt="">
+              </div>
+              <div class="accolades">
+                <p>CMDRZorbaDundee</p>
+                <p class="verified">✔  Verified</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h2>This website was unfortunately brought to you by the EDA Kunti League.</h2>
+        <img src="media/images/edaroundel.png" alt="" id="roundel">
+        <h3>We're not Sorry.</h3>
+        <div class="footcol">
+          <div class="footrow">
+            <a href="index.html">HOME</a>
+            <a href="goidstars.html">STARS</a>
+          </div>
+          <div class="footrow">
+            <a href="videos.html">VIDEOS</a>
+            <a href="images.html">IMAGES</a>
+          </div>
+          <div class="footrow">
+            <a href="faq.html">FAQ</a>
+          </div>
+        </div>
+
+        <p id="deskver">GoidHub v2.0</p>
+        <p id="mobiver">GoidHub Mobile v1.0</p>
+      </div>
+    </center>
+
+  </body>
+</html>

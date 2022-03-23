@@ -1,0 +1,194 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>GoidHub</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="For all your goid action.">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="GoidHub">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="index.html">
+  <meta property="og:description" content="For all your goid action.">
+  <meta property="og:image" content="media/images/goidhublogo.png">
+
+  <link rel="icon" href="media/images/icon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.html">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/stylesdefault.css?v=1.0">
+</head>
+
+<body>
+  <header>
+    <div class="thinbanner">
+      <div class="bannerblk">
+        <p>EDAKUNTILEAGUE</p>
+        <p>EDAKUNTILEAGUE</p>
+        <p>EDAKUNTILEAGUE</p>
+        <p>EDAKUNTILEAGUE</p>
+        <p>EDAKUNTILEAGUE</p>
+      </div>
+    </div>
+    <div id="row1">
+      <button id="mmbutton" onclick="myFunction()">
+        <h3>≡
+      </button>
+      <a href="index.html"><img id="logo" src="media/images/goidhublogo.png" height="50px"></a>
+      <div id="searchBarContainer">
+        <label for="search">
+          <input id="searchInput" type="text" value="" placeholder="Search videos" maxlength="100">
+        </label>
+        <div class="orangeButton">🔎︎</div>
+      </div>
+      <div class="loginsignup">
+        <p id="lgn">Login</p>
+        <p id="lgn">Sign Up</p>
+      </div>
+    </div>
+    <div id="row2">
+      <ul class="topbar">
+        <Li> <a href="index.html">Home v</a></Li>
+        <Li> <a class="active">GoidStars  ˅</a></Li>
+        <Li> <a href="videos.html">Videos  ˅</a></Li>
+        <Li> <a href="images.html">Images  ˅</a></Li>
+      </ul>
+    </div>
+    <div id="mmdrop">
+      <a href="index.html" class="mmdroprow">
+        <h2>All Videos</h2>
+      </a>
+      <a href="goidstars.html" class="mmdroprow">
+        <h2>GoidStars</h2>
+      </a>
+    </div>
+  </header>
+
+  <center>
+    <br>
+    <div class="banner">
+      <div class="w3-content w3-section" style="max-width:468px">
+        <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_2.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_3.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_4.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_5.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_6.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_7.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_8.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_9.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_10.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_11.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_12.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_13.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_14.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width:100%">
+        <img class="mySlides" src="media/images/banners/GH_banner_1.png" style="width:100%">
+      </div> <!-- Changing Banner -->
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+    <div class="shelf">
+      <h1> Our Goid-Stars </h1>
+      <div class="shelfrow" id="videos">
+        <div class="shelfitem">
+          <img class="stars" src="media/images/prof/zorba.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/cmdrzorbadundee">Zorba Dundee</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="shelfitem">
+          <img class="stars" src="media/images/prof/syphondex.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/syphondex">Syphondex</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="shelfitem">
+          <img class="stars" src="https://static-cdn.jtvnw.net/jtv_user_pictures/9330429e-8972-4c5a-b89a-0f6039d21561-profile_image-150x150.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/nick_lambert">Nick_Lambert</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="shelfitem">
+          <img class="stars" src="https://static-cdn.jtvnw.net/jtv_user_pictures/44ea45a9-81c4-4f21-89f8-3649feef6143-profile_image-150x150.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/cmdreaglejonno">Eaglejonno</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="shelfitem">
+          <img class="stars" src="media/images/prof/chicken.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/super_chicken">Super_Chicken</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="shelfitem" id="op">
+          <img class="stars" src="media/images/prof/op.png">
+          <div class="author" id="star">
+            <div class="accolades">
+              <h2><a href="https://www.twitch.tv/CmdrOrangePheonix">CmdrOrangePheonix</a></h2>
+              <p class="verified">✔  Verified</p>
+            </div>
+          </div>
+        </div>
+        -->
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>This website was unfortunately brought to you by the EDA Kunti League.</h2>
+      <img src="media/images/edaroundel.png" alt="" id="roundel">
+      <h3>We're not Sorry.</h3>
+      <div class="footcol">
+        <div class="footrow">
+          <a href="index.html">HOME</a>
+          <a href="goidstars.html">STARS</a>
+        </div>
+        <div class="footrow">
+          <a href="videos.html">VIDEOS</a>
+          <a href="images.html">IMAGES</a>
+        </div>
+        <div class="footrow">
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+
+      <p id="deskver">GoidHub v2.0</p>
+      <p id="mobiver">GoidHub Mobile v1.0</p>
+    </div>
+    </center>
+  </body>
+</html>
